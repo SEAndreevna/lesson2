@@ -1,0 +1,46 @@
+/**
+  *
+  *  шаблон 03
+  *  трех-колоночный с шапкой и футером
+  *
+***/
+
+body{
+  background-color: rgba(91, 96, 199, 0.5);
+}
+
+header{
+  width: 100vw;
+  height: 10vh;
+}
+
+main{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+}
+
+ nav, aside {
+    flex: 1;
+    background-color: #a27ac9;
+}
+
+nav {
+    order: -1;
+}
+
+section{
+    flex: 2 2 12em;
+    padding: 1em;
+    background-color: #8250b5;
+}
+
+footer{
+  width: 100vw;
+  height: 10vh;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
